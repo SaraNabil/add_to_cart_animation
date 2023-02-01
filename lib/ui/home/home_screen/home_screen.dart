@@ -87,7 +87,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
     end: const RelativeRect.fromLTRB(400, 1000, 130, 0),
   );
 
-  _addToCart(image) {
+  void _addToCart(image) {
     setState(() {
       _showLoader = false;
       _isScaleVisible = true;
