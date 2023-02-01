@@ -1,17 +1,17 @@
 class HomeProductItemModel {
-  String? productItemId;
-  String? productItemImage;
-  String? productItemName;
-  String? productItemPrice;
-  int? productItemQuantity;
-  String? productItemSpecial;
-  int? productItemRating;
-  String? productItemReviews;
-  bool? productItemHasOptions;
-  bool? productItemHasIsFavorite;
-  String? productItemOffer;
+  final String? productItemId;
+  final String? productItemImage;
+  final String? productItemName;
+  final String? productItemPrice;
+  final int? productItemQuantity;
+  final String? productItemSpecial;
+  final int? productItemRating;
+  final String? productItemReviews;
+  final bool? productItemHasOptions;
+  final bool? productItemHasIsFavorite;
+  final String? productItemOffer;
 
-  HomeProductItemModel(
+  const HomeProductItemModel(
       {this.productItemHasIsFavorite,
       this.productItemHasOptions,
       this.productItemId,

@@ -1,9 +1,9 @@
+import 'package:add_to_cart_animation/ui/bottom_navigation_bar/bottom_navigation_bar_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:provider/provider.dart';
 
-import 'home/bloc/home_bloc.dart';
-import 'navigation_bottom_bar/main_page.dart';
+import 'bloc/home_bloc.dart';
 import 'provider/cart_counter_provider.dart';
 
 void main() {

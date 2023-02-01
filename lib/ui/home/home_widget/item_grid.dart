@@ -1,7 +1,7 @@
 import 'package:bouncing_widget/bouncing_widget.dart';
 import 'package:flutter/material.dart';
 
-import '../../rec/images_manager/images_manager.dart';
+import '../../../rec/images_manager/images_manager.dart';
 import 'image_container.dart';
 import 'offer_container_widget.dart';
 

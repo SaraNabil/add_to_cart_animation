@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../rec/images_manager/images_manager.dart';
+import '../../../rec/images_manager/images_manager.dart';
 import 'search_bar_text_field.dart';
 
 class HomeSearchBar extends StatelessWidget with PreferredSizeWidget {

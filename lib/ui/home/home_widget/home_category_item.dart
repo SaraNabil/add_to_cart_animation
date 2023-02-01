@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
 
-import '../../models/category_model.dart';
+import '../../../models/category_model.dart';
 
 class CategoryItem extends StatelessWidget {
   final CategoryModel homeCategoryModel;
   final bool? scrollVisibility;
 
   const CategoryItem({
+    Key? key,
     required this.homeCategoryModel,
     this.scrollVisibility,
-  });
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

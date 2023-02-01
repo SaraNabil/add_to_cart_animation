@@ -1,10 +1,10 @@
 import 'home_product_item_model.dart';
 
 class HomeProductModel {
-  String? productTitle;
-  List<HomeProductItemModel>? homProductItemsListModel;
+  final String? productTitle;
+  final List<HomeProductItemModel>? homProductItemsListModel;
 
-  HomeProductModel({
+  const HomeProductModel({
     this.homProductItemsListModel,
     this.productTitle,
   });

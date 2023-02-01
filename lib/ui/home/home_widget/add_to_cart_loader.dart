@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../rec/images_manager/images_manager.dart';
+import '../../../rec/images_manager/images_manager.dart';
 
 class AddToCartLoader extends StatelessWidget {
   const AddToCartLoader({Key? key}) : super(key: key);

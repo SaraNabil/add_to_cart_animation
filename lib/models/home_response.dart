@@ -2,11 +2,11 @@ import 'category_model.dart';
 import 'home_products_model.dart';
 
 class HomeResponseModel {
-  List<HomeProductModel>? homeProductsList;
-  List<CategoryModel>? homeCategoryList;
-  String? minCartValue;
+  final List<HomeProductModel>? homeProductsList;
+  final List<CategoryModel>? homeCategoryList;
+  final String? minCartValue;
 
-  HomeResponseModel({
+  const HomeResponseModel({
     this.homeCategoryList,
     this.homeProductsList,
     this.minCartValue,

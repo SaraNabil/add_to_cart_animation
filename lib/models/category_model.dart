@@ -1,14 +1,14 @@
 class CategoryModel {
-  String? categoryName;
-  bool? childStatus;
-  String? path;
-  String? image;
-  String? dominantColor;
-  String? icon;
-  String? dominantColorIcon;
-  List<CategoryModel>? subCategories;
+  final String? categoryName;
+  final bool? childStatus;
+  final String? path;
+  final String? image;
+  final String? dominantColor;
+  final String? icon;
+  final String? dominantColorIcon;
+  final List<CategoryModel>? subCategories;
 
-  CategoryModel({
+  const CategoryModel({
     this.categoryName,
     this.childStatus,
     this.path,

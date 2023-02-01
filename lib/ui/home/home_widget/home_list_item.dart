@@ -1,8 +1,8 @@
-import 'package:add_to_cart_animation/home/bloc/home_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../models/home_products_model.dart';
+import '../../../bloc/home_bloc.dart';
+import '../../../models/home_products_model.dart';
 import 'item_grid.dart';
 
 class HomeListItemWidget extends StatefulWidget {
@@ -59,7 +59,6 @@ class _HomeListItemWidgetState extends State<HomeListItemWidget> {
   }
 
   void _onToCartClick() {
-    //todo add to cart
     BlocProvider.of<HomeBloc>(context).add(
       ShowLoadingEvent(widget
               .homeProductModel

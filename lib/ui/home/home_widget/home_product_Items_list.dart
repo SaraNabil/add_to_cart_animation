@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../models/home_response.dart';
+import '../../../models/home_response.dart';
 import 'home_list_item.dart';
 
 class HomeProductItemsListWidget extends StatelessWidget {

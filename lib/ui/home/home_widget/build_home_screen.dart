@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../models/home_response.dart';
-import '../../rec/images_manager/images_manager.dart';
+import '../../../models/home_response.dart';
+import '../../../rec/images_manager/images_manager.dart';
 import 'add_to_cart_loader.dart';
 import 'home_list_of_categories.dart';
 import 'home_products_list.dart';
